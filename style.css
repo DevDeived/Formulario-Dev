@@ -63,6 +63,7 @@ fieldset.grupo .campo {
 }
 
 .botao {
+    display: block;
     font-size: 1.2em;
     background: #6b705c;
     border: 0;
@@ -71,11 +72,12 @@ fieldset.grupo .campo {
     padding: 0.2em, 0.6em;
     box-shadow: 2px 2px 2px 2px #264653;
     text-shadow: 1px 1px 1px #264653;
-    position: absolute;
+    position: relative;
     top: 97%;
-    left: 50%;
+    left: 20%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    clear: both;
 }
 
 .botao:hover{
